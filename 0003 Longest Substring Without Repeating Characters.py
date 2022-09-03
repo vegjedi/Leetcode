@@ -15,7 +15,7 @@ def lengthOfLongestSubstring(s):
             if check(word):
                 result = max(len(word), result)
     
-    return print(result)
+    return result
 
 s = 'pwwkew'
 
