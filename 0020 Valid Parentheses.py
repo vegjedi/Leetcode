@@ -25,6 +25,6 @@ def isValid(s):
                 rel = True
     return print(rel)
 
-s = "{[]}}{"
+s = "{{{{[]}}}}"
 
 isValid(s)
