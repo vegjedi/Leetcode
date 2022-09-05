@@ -6,10 +6,10 @@ def searchInsert(nums, target):
     else:
         for i in range(len(nums)):
             if (nums[i] < target) and (target < nums[i+1]):
-                l = i
+                l = i + 1
                 break
             elif nums[i] == target:
-                l = i + 1
+                l = i
                 break
         return l
 
